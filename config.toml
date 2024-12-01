@@ -1,0 +1,38 @@
+# The URL the site will be built for
+base_url = "https://www.rustlatam.org"
+theme = "hermit_zola"
+compile_sass = true
+build_search_index = false
+title = "Rust LatAm"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+home_subtitle = "Bienvenidx al espacio de colaboración de la comunidad de Rust en Latino America. "
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+hermit_menu = [
+    { link = "/statute", name = "Statute" },
+    { link = "/about", name = "About" },
+]
+
+hermit_social = [
+    { name = "github", link = "http://github.com/rustlatam" },
+    { name = "email", link = "mailto:hola@rustlatam.org" },
+]
+
+[extra.highlightjs]
+enable = true
+clipboard = true
+theme = "vs2015"
+
+[extra.author]
+name = "Comunidad de Rust LatAm"
+email = "hola@rustlatam.org"
+
+[extra.google_analytics]
+enable = false
+id = "UA-4XXXXXXX-X"
