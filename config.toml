@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.rustlatam.org"
+base_url = "https://rustlatam.github.io/home/"
 theme = "hermit_zola"
 compile_sass = true
 build_search_index = false
